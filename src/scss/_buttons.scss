@@ -1,0 +1,16 @@
+/*------------------------------------*\
+    $BOTONES
+\*------------------------------------*/
+
+
+.btn {
+	display: inline-block;
+	font-weight: $btn-font-weight;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: $padding-base-vertical $padding-base-horizontal;
+	font-size: $font-size-base;
+	line-height: $line-height-base;
+	@include border-radius($border-radius-base);
+}

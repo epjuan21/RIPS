@@ -1,0 +1,145 @@
+/*------------------------------------*\
+    $VARIABLES
+\*------------------------------------*/
+/**
+ *
+ * Definimos y configuramos las variables CSS que vamos a utilizar
+ *
+ */
+
+
+/*------------------------------------*\
+    $COLORS
+\*------------------------------------*/
+
+// Colores FLAT UI
+
+$green_sea: 				#16A085;	// rgb(22,160,133)
+$emerland:					#2ECC71; 	// rgb(46,204,113) 
+$nephritis: 				#27AE60; 	// rgb(39,174,96)
+$peter_river: 				#3498DB;  	// rgb(52,152,219)
+$belize_hole: 				#2980B9; 	// rgb(41,128,185)
+$amethyst: 					#9B59B6; 	// rgb(155,89,182)
+$wisteria: 					#8e44AD; 	// rgb(142,68,173)
+$wet_asphalt: 				#34495E;	// rgb(52,73,94)
+$midnight_blue:				#2C3E50;	// rgb(44,62,80)
+$sun_flower: 				#F1C40F;	// rgb(241,196,15)
+$orange: 					#F39C12;	// rgb(243,156,18)
+$carrot: 					#E67E22;	// rgb(230,126,34)
+$pumpkin: 					#D35400;	// rgb(211,84,0)
+$alizarin: 					#E74C3C;	// rgb(231,76,60)
+$pomegranate: 				#C0392B;	// rgb(192,57,43)
+$clouds: 					#ECF0F1;	// rgb(236,240,241)
+$silver: 					#BDC3C7;	// rgb(189,195,199)
+$concrete: 					#95A5A6;	// rgb(149,165,166)
+$asbestos: 					#7F8C8D;	// rgb(127,140,141)
+
+// Colores Bootstrap 3
+
+/**
+ * Escala de grises
+ */
+
+$gray-darker:       		lighten(#000, 13.5%) !default; // #222
+$gray-dark:         		lighten(#000, 20%) !default;   // #333
+$gray:              		lighten(#000, 33.5%) !default; // #555
+$gray-light:        		lighten(#000, 60%) !default;   // #999
+$gray-lighter:      		lighten(#000, 93.5%) !default; // #eee
+
+$brand-primary:     		#428bca !default;
+$brand-success:     		#5cb85c !default;
+$brand-info:        		#5bc0de !default;
+$brand-warning:     		#f0ad4e !default;
+$brand-danger:      		#d9534f !default;
+
+$body-bg:					#fff !default;						// Color de Fondo para el <body>.
+
+$text-color:          		$gray-darker !default;				// Color Global de las Fuentes para el <body>.
+
+
+// Colores Proyecto
+
+$color-base:				$brand-primary;		
+
+// Links
+
+$link-color:		    	$color-base;
+$link-color-hover: 			darken($link-color, 10);
+$link-color-visited:   		$color-base;
+$link-color-focus: 			darken($link-color-visited, 10);
+
+
+
+/*------------------------------------*\
+    $IMAGE-DIR
+\*------------------------------------*/
+/**
+ * Con agregar esta variable a las imágenes declaradas en CSS apañamos:
+ */
+
+$image-dir: "../img";
+
+ //Use: background-image:url("#{$image-dir}/btn.jpg");
+
+
+
+
+
+// Typography
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+
+$font-family-lato:			'Lato', sans-serif;
+$font-family-opens-sans:	'Open Sans', sans-serif;
+
+
+$font-family-sans-serif:	"Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif:			Georgia, "Times New Roman", Times, serif !default;
+$font-family-base:			$font-family-sans-serif !default;	// Font-Family Base
+
+$font-size-base:         	14px !default;
+$font-size-large:         	ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         	ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$headings-font-family:    	$font-family-sans-serif;
+$headings-font-weight:    	500 !default;
+$headings-line-height:    	1.1 !default;
+$headings-color:          	inherit !default;
+
+$font-size-h1:				$font-size-base * 2.6;
+$font-size-h2:				$font-size-base * 2.15;
+$font-size-h3:				$font-size-base * 1.7;
+$font-size-h4:				$font-size-base * 1.25;
+$font-size-h5:				$font-size-base;
+$font-size-h6:				$font-size-base * 0.85;
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:        	1.428571429 !default; // 20/14
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+$line-height-computed:    	floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+
+
+/*------------------------------------*\
+    $BOTONES
+\*------------------------------------*/
+/**
+ * Definimos Tamaños y Estilos de Botones:
+ */
+
+ $width-button-file:		250px;
+ $btn-font-weight:			normal;
+
+
+// Componentes
+
+
+$padding-base-vertical:     6px !default;
+$padding-base-horizontal:   12px !default;
+
+$border-radius-base:        4px !default;
+$border-radius-large:       6px !default;
+$border-radius-small:       3px !default;

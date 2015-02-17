@@ -1,0 +1,44 @@
+
+
+
+
+
+/*------------------------------------*\
+    $SITIO
+\*------------------------------------*/
+html {
+	font-size : 100%;
+}
+
+body {
+	font-family: $font-family-sans-serif;
+}
+
+.container {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.head-container{
+	width: 100%;
+	background-color: $gray-dark;
+	display: block;
+	margin-bottom: 30px;
+}
+
+.pate-title {
+	display: inline-block;
+	font-size: $font-size-large;
+	color: $body-bg;
+	padding: 15px 14px;
+	font-family: $font-family-opens-sans;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+}
+
+.image-logo {
+	padding: 15px 14px;
+	float: right;
+	display:inline-block;
+}
